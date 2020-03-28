@@ -11,3 +11,9 @@ def get_last_row(sheet):
     else:
         return last_row + 1
 
+
+def google_sheets_authorization(creds_file):
+    scope = ["https://www.googleapis.com/auth/spreadsheets"]
+    creds = ServiceAccountCredentials.from_json_keyfile_name(creds_file, scope)
+    return gspread.authorize(creds)
+

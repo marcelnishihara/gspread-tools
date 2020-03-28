@@ -1,2 +1,3 @@
-# gspread-tools
-Set of Python 3 functions to make easier to work with Google Sheets API based on Gspread
+# GSPREAD TOOLS
+
+Set of Python functions to make easier to work with Google Sheets API based on `gspread`
